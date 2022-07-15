@@ -8,12 +8,12 @@ namespace JenkinsApp
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hey Priya");
-            Console.ReadLine();
+           
             MyMath m = new MyMath();
             
             Console.WriteLine("Addition" + m.Add(4, 5));
             Console.WriteLine("Multi" + m.mul(6, 7));
-
+            Console.ReadLine();
 
 
         }
