@@ -8,7 +8,7 @@ namespace JenkinsApp
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hey Priya");
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
