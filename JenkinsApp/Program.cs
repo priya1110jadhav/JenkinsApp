@@ -10,8 +10,10 @@ namespace JenkinsApp
             Console.WriteLine("Hey Priya");
             Console.ReadLine();
             MyMath m = new MyMath();
-            m.Add(4, 5);
-            m.mul(6, 7);
+            
+            Console.WriteLine("Addition" + m.Add(4, 5));
+            Console.WriteLine("Multi" + m.mul(6, 7));
+
 
 
         }
